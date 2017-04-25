@@ -1,6 +1,43 @@
 * {
   font-family: 'Roboto', sans-serif;
 }
-.topbar{
-  font-size = 12px;
+body {
+  background-color: #FFF;
+  margin: 0;
+  padding: 0;
+}
+.header {
+  background-color: red;
+  height: 0px;
+  width: 100%;
+  padding-top: 32px;
+}
+.number {
+  color: white;
+  font-size: 16px;
+  position: absolute;
+  top: 8px;
+  left: 95px;
+}
+.email {
+  color: white;
+  font-size: 16px;
+  position: absolute;
+  top: 7px;
+  left: 425px;
+}
+
+.emailImg{
+  position: absolute;
+  top: 8px;
+  left: 400px;
+  height: 16px;
+  width: 16px;
+}
+.phoneImg{
+  position: absolute;
+  top: 10px;
+  left: 69px;
+  height: 16px;
+  width: 16px;
 }
